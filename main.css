@@ -1,0 +1,54 @@
+/* css document */
+
+html, body {   
+    height: 100%;
+    font-size: 1em;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+  }
+  .container {                               /* designing main div */
+    text-align: center;
+    background-color: gray;
+    border-radius: 5px; 
+    width: 800px;
+  }
+
+  li{
+    padding: 10px;               /* padding to li so that it is separated from other li's  */
+  }
+  #list-header{                         /*designing first div */
+    display: block;
+    background-color:gray;
+    text-align: center;
+  }
+  #btn{
+    background-color: lightblue;               /*  designing add button*/
+    border: 0 5px;
+    border-radius: 5px;
+    color: black;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 16px;
+   cursor: pointer;
+   
+  }
+  li:nth-child(odd) {         /* giving  white color to odd elements  */
+    background:lightblue;
+  }
+  button.close {                /*  designing button */
+    cursor: pointer;
+    text-align: center;
+    float: right;
+  }
+  input.checked{                        
+    text-decoration: line-through;               /*designng the checkbox  */
+    color: turquoise;
+    float: left;
+  }
+  ul > input{        
+    float:left;       
+  }
